@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<link rel="stylesheet" href="css/mix.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="header">
+		<div class="header-left">
+			<img src="images/logo.png" alt="">
+			<h1>Web Application Program Development</h1>
+			
+		</div>
+		
+		<div class="search-area">
+			<input type="text" placeholder="search"><i class="fa fa-search"></i>
+			<button style="padding:5px 10px;background-color: #6B2165;color:#ddd;border: 2px solid #5f2626;outline: 1px solid #ad56a3;cursor:pointer;">Search</button>
+		</div>
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="sign.html">Sign Up</a></li>
+			<li><a href="help.html">Location</a></li>
+			<li><a href="mixGallery.html">Shopping</a></li>
+			<li><a href="faq.html">Faq</a></li>
+		</ul>
+	</div>
+	<div class="mixGallery">
+		<div class="mixList">
+			<ul>
+				<li><a href="#"data-filter="all">All</a></li>
+				<li><a href="#"data-filter=".men">Men</a></li>
+				<li><a href="#"data-filter=".wom">Women</a></li>
+				<li><a href="#"data-filter=".kids">Kids</a></li>
+				<li><a href="#"data-filter="none">none</a></li>
+			</ul>
+		</div>
+		<div class="images">
+			<div class="product mix men">
+				<a href="images/mix/men1.jpg"><img src="images/mix/men1.jpg" alt=""></a>
+			</div>
+			<div class="product mix wom">
+				<a href="images/mix/wom1.jpg"><img src="images/mix/wom1.jpg" alt=""></a>
+			</div>
+			<div class="product mix wom">
+				<a href="images/mix/wom2.jpg"><img src="images/mix/wom2.jpg" alt=""></a>
+			</div>
+			<div class="product mix kids">
+				<a href="images/mix/k1.jpg"><img src="images/mix/k1.jpg" alt=""></a>
+			</div>
+			<div class="product mix men">
+				<a href="images/mix/men3.jpg"><img src="images/mix/men3.jpg" alt=""></a>
+			</div>
+			<div class="product mix wom">
+				<a href="images/mix/wom3.jpg"><img src="images/mix/wom3.jpg" alt=""></a>
+			</div>
+			<div class="product mix kids">
+				<a href="images/mix/k4.jpg"><img src="images/mix/k4.jpg" alt=""></a>
+			</div>
+			<div class="product mix men">
+				<a href="images/mix/men4.jpg"><img src="images/mix/men4.jpg" alt=""></a>
+			</div>
+			<div class="product mix men">
+				<a href="images/mix/men2.jpg"><img src="images/mix/men2.jpg" alt=""></a>
+			</div>
+			<div class="product mix men">
+				<a href="images/mix/men6.jpg"><img src="images/mix/men6.jpg" alt=""></a>
+			</div>
+			<div class="product mix wom">
+				<a href="images/mix/wom3.jpg"><img src="images/mix/wom3.jpg" alt=""></a>
+			</div>
+			<div class="product mix men">
+				<a href="images/mix/wom7.jpg"><img src="images/mix/men1.jpg" alt=""></a>
+			</div>
+			<div class="product mix kids">
+				<a href="images/mix/k7.jpg"><img src="images/mix/k7.jpg" alt=""></a>
+			</div>
+			<div class="product mix wom">
+				<a href="images/mix/wom7.jpg"><img src="images/mix/wom7.jpg" alt=""></a>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="footer">
+		<p>All rights reserved by &copy; <a href="#">Nazmul Sharif</a></p>
+		<a href=""><i class="fa fa-facebook-square"></i></a>
+		<a href=""><i class="fa fa-twitter-square"></i></a>
+		<a href=""><i class="fa fa-google-plus-square"></i></a>
+		<a href=""><i class="fa fa-youtube-square"></i></a>
+	</div>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		$(".mixGallery").mixItUp();
+		$('.images a').prettyPhoto();
+	</script>
+</body>
+</html>
